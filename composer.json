@@ -9,8 +9,8 @@
         "symfony/config"             : "^3.0",
         "symfony/yaml"               : "^3.0",
         "symfony/expression-language": "^3.0",
-        "amopi/logging"              : "^1.1",
-        "amopi/utils"                : "^1.6",
+        "amopi/logging"              : "dev-master",
+        "amopi/utils"                : "dev-master",
         "symfony/security"           : "^3.0",
         "twig/twig"                  : "^1.24",
         "symfony/twig-bridge"        : "^3.0",
@@ -18,6 +18,16 @@
         "silex/providers"            : "^2.2",
         "guzzlehttp/guzzle": "^6.3"
     },
+    "repositories": [
+        {
+            "type":"git",
+            "url":"https://github.com/amopi/logging"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/amopi/utils"
+        }
+    ],
     "autoload"         : {
         "psr-4": {
             "Amopi\\Mlib\\Http\\": "src/"
